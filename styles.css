@@ -1,65 +1,81 @@
+/* Estilo geral do corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #888888;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: Arial, sans-serif; /* Define a fonte do corpo */
+    background-color: #888888; /* Cor de fundo da página */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    display: flex; /* Usado para criar um layout flexível */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    height: 100vh; /* A altura ocupa toda a altura da janela de visualização */
 }
+
+/* Estilo para o container que envolve todo o conteúdo */
 .container {
-    width: 60%;
-    background: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 10px;
+    width: 60%; /* Largura do container em relação à tela */
+    background: #ffffff; /* Cor de fundo do container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave em torno do container */
+    padding: 20px; /* Preenchimento interno do container */
+    border-radius: 10px; /* Bordas arredondadas no container */
 }
+
+/* Estilo do cabeçalho, onde está a foto e o texto */
 .header {
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid #c500ab;
-    padding-bottom: 15px;
+    display: flex; /* Layout flexível para alinhar imagem e texto horizontalmente */
+    align-items: center; /* Alinha o conteúdo ao centro verticalmente */
+    border-bottom: 2px solid #c500ab; /* Linha de separação abaixo do cabeçalho */
+    padding-bottom: 15px; /* Preenchimento inferior no cabeçalho */
 }
 
+/* Estilo da imagem no cabeçalho (foto de perfil) */
 .header img {
-    width: 50px; /* Tamanho de foto de perfil do WhatsApp */
-    height: 50px; /* Mantém o formato quadrado */
-    border-radius: 50%; /* Bordas arredondadas */
-    object-fit: cover; /* Garante que a imagem preencha sem distorcer */
-    margin-right: 15px; /* Espaçamento entre a imagem e o texto */
+    width: 50px; /* Tamanho da foto de perfil (50px de largura) */
+    height: 50px; /* Tamanho da foto de perfil (50px de altura) */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    margin-right: 15px; /* Espaçamento à direita da imagem */
 }
 
+/* Estilo para o título (nome) */
 h1 {
-    color: #000000;
-    margin: 0;
-    font-size: 1.2rem; /* Tamanho do nome proporcional à imagem */
+    color: #000000; /* Cor do texto do título */
+    margin: 0; /* Remove a margem padrão do título */
+    font-size: 1.2rem; /* Tamanho do texto do nome, proporcional à imagem */
 }
 
+/* Estilo para o parágrafo abaixo do nome (cargo) */
 p {
-    color: #000000;
-    margin: 5px 0 0;
-    font-size: 1rem; /* Tamanho do cargo proporcional */
+    color: #000000; /* Cor do texto do parágrafo */
+    margin: 5px 0 0; /* Margem superior de 5px, sem margem inferior */
+    font-size: 1rem; /* Tamanho do texto do cargo, proporcional */
 }
 
-
+/* Estilo das seções de informações */
 .info {
-    margin-top: 15px;
+    margin-top: 15px; /* Margem superior de 15px */
 }
+
+/* Estilo dos títulos dentro das seções de informações */
 .info h2 {
-    color: #000000;
-    border-bottom: 1px solid #c500ab;
-    padding-bottom: 5px;
+    color: #000000; /* Cor do título da seção */
+    border-bottom: 1px solid #c500ab; /* Linha de separação abaixo do título */
+    padding-bottom: 5px; /* Preenchimento inferior para o título */
 }
+
+/* Estilo para a seção de links */
 .links {
-    margin-top: 10px;
+    margin-top: 10px; /* Margem superior de 10px */
 }
+
+/* Estilo dos links dentro da seção de links */
 .links a {
-    text-decoration: none;
-    color: #333;
-    margin-right: 15px;
-    font-weight: bold;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor do texto dos links */
+    margin-right: 15px; /* Espaçamento à direita de cada link */
+    font-weight: bold; /* Deixa os links em negrito */
 }
+
+/* Estilo para quando o mouse passa sobre os links */
 .links a:hover {
-    color: #2009f5;
+    color: #2009f5; /* Cor do link quando o mouse passa por cima */
 }
